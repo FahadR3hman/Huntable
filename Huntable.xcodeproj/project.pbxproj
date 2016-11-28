@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		295F75C71DECAAEC0095F8ED /* 640x1136.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 295F75C61DECAAEC0095F8ED /* 640x1136.jpg */; };
 		4558914B1DCBAF16001862EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558914A1DCBAF16001862EF /* main.m */; };
 		4558914E1DCBAF16001862EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558914D1DCBAF16001862EF /* AppDelegate.m */; };
 		455891511DCBAF16001862EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455891501DCBAF16001862EF /* ViewController.m */; };
@@ -15,6 +16,11 @@
 		455891591DCBAF16001862EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455891571DCBAF16001862EF /* LaunchScreen.storyboard */; };
 		455891641DCBAF16001862EF /* TemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 455891631DCBAF16001862EF /* TemplateTests.m */; };
 		4558916F1DCBAF16001862EF /* TemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558916E1DCBAF16001862EF /* TemplateUITests.m */; };
+		455891871DCBAFA7001862EF /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4558917E1DCBAFA7001862EF /* SVIndefiniteAnimatedView.m */; };
+		455891881DCBAFA7001862EF /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 455891801DCBAFA7001862EF /* SVProgressAnimatedView.m */; };
+		455891891DCBAFA7001862EF /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 455891821DCBAFA7001862EF /* SVProgressHUD.bundle */; };
+		4558918A1DCBAFA7001862EF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 455891841DCBAFA7001862EF /* SVProgressHUD.m */; };
+		4558918B1DCBAFA7001862EF /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 455891861DCBAFA7001862EF /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		455891461DCBAF16001862EF /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		295F75C61DECAAEC0095F8ED /* 640x1136.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 640x1136.jpg; sourceTree = "<group>"; };
+		455891461DCBAF16001862EF /* Huntable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huntable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4558914A1DCBAF16001862EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4558914C1DCBAF16001862EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4558914D1DCBAF16001862EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,12 +52,22 @@
 		455891551DCBAF16001862EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		455891581DCBAF16001862EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4558915A1DCBAF16001862EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4558915F1DCBAF16001862EF /* TemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4558915F1DCBAF16001862EF /* HuntableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		455891631DCBAF16001862EF /* TemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTests.m; sourceTree = "<group>"; };
 		455891651DCBAF16001862EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4558916A1DCBAF16001862EF /* TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4558916A1DCBAF16001862EF /* HuntableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuntableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4558916E1DCBAF16001862EF /* TemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateUITests.m; sourceTree = "<group>"; };
 		455891701DCBAF16001862EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4558917D1DCBAFA7001862EF /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		4558917E1DCBAFA7001862EF /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		4558917F1DCBAFA7001862EF /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		455891801DCBAFA7001862EF /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		455891811DCBAFA7001862EF /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		455891821DCBAFA7001862EF /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		455891831DCBAFA7001862EF /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		455891841DCBAFA7001862EF /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		455891851DCBAFA7001862EF /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		455891861DCBAFA7001862EF /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +108,9 @@
 		455891471DCBAF16001862EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				455891461DCBAF16001862EF /* Template.app */,
-				4558915F1DCBAF16001862EF /* TemplateTests.xctest */,
-				4558916A1DCBAF16001862EF /* TemplateUITests.xctest */,
+				455891461DCBAF16001862EF /* Huntable.app */,
+				4558915F1DCBAF16001862EF /* HuntableTests.xctest */,
+				4558916A1DCBAF16001862EF /* HuntableUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +118,7 @@
 		455891481DCBAF16001862EF /* Template */ = {
 			isa = PBXGroup;
 			children = (
+				4558917C1DCBAFA7001862EF /* SVProgressHUD */,
 				4558914C1DCBAF16001862EF /* AppDelegate.h */,
 				4558914D1DCBAF16001862EF /* AppDelegate.m */,
 				4558914F1DCBAF16001862EF /* ViewController.h */,
@@ -108,6 +126,7 @@
 				455891521DCBAF16001862EF /* Main.storyboard */,
 				455891551DCBAF16001862EF /* Assets.xcassets */,
 				455891571DCBAF16001862EF /* LaunchScreen.storyboard */,
+				295F75C61DECAAEC0095F8ED /* 640x1136.jpg */,
 				4558915A1DCBAF16001862EF /* Info.plist */,
 				455891491DCBAF16001862EF /* Supporting Files */,
 			);
@@ -140,12 +159,29 @@
 			path = TemplateUITests;
 			sourceTree = "<group>";
 		};
+		4558917C1DCBAFA7001862EF /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4558917D1DCBAFA7001862EF /* SVIndefiniteAnimatedView.h */,
+				4558917E1DCBAFA7001862EF /* SVIndefiniteAnimatedView.m */,
+				4558917F1DCBAFA7001862EF /* SVProgressAnimatedView.h */,
+				455891801DCBAFA7001862EF /* SVProgressAnimatedView.m */,
+				455891811DCBAFA7001862EF /* SVProgressHUD-Prefix.pch */,
+				455891821DCBAFA7001862EF /* SVProgressHUD.bundle */,
+				455891831DCBAFA7001862EF /* SVProgressHUD.h */,
+				455891841DCBAFA7001862EF /* SVProgressHUD.m */,
+				455891851DCBAFA7001862EF /* SVRadialGradientLayer.h */,
+				455891861DCBAFA7001862EF /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		455891451DCBAF16001862EF /* Template */ = {
+		455891451DCBAF16001862EF /* Huntable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455891731DCBAF16001862EF /* Build configuration list for PBXNativeTarget "Template" */;
+			buildConfigurationList = 455891731DCBAF16001862EF /* Build configuration list for PBXNativeTarget "Huntable" */;
 			buildPhases = (
 				455891421DCBAF16001862EF /* Sources */,
 				455891431DCBAF16001862EF /* Frameworks */,
@@ -155,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = Template;
+			name = Huntable;
 			productName = Template;
-			productReference = 455891461DCBAF16001862EF /* Template.app */;
+			productReference = 455891461DCBAF16001862EF /* Huntable.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4558915E1DCBAF16001862EF /* TemplateTests */ = {
+		4558915E1DCBAF16001862EF /* HuntableTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455891761DCBAF16001862EF /* Build configuration list for PBXNativeTarget "TemplateTests" */;
+			buildConfigurationList = 455891761DCBAF16001862EF /* Build configuration list for PBXNativeTarget "HuntableTests" */;
 			buildPhases = (
 				4558915B1DCBAF16001862EF /* Sources */,
 				4558915C1DCBAF16001862EF /* Frameworks */,
@@ -173,14 +209,14 @@
 			dependencies = (
 				455891611DCBAF16001862EF /* PBXTargetDependency */,
 			);
-			name = TemplateTests;
+			name = HuntableTests;
 			productName = TemplateTests;
-			productReference = 4558915F1DCBAF16001862EF /* TemplateTests.xctest */;
+			productReference = 4558915F1DCBAF16001862EF /* HuntableTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		455891691DCBAF16001862EF /* TemplateUITests */ = {
+		455891691DCBAF16001862EF /* HuntableUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 455891791DCBAF16001862EF /* Build configuration list for PBXNativeTarget "TemplateUITests" */;
+			buildConfigurationList = 455891791DCBAF16001862EF /* Build configuration list for PBXNativeTarget "HuntableUITests" */;
 			buildPhases = (
 				455891661DCBAF16001862EF /* Sources */,
 				455891671DCBAF16001862EF /* Frameworks */,
@@ -191,9 +227,9 @@
 			dependencies = (
 				4558916C1DCBAF16001862EF /* PBXTargetDependency */,
 			);
-			name = TemplateUITests;
+			name = HuntableUITests;
 			productName = TemplateUITests;
-			productReference = 4558916A1DCBAF16001862EF /* TemplateUITests.xctest */;
+			productReference = 4558916A1DCBAF16001862EF /* HuntableUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -202,11 +238,12 @@
 		4558913E1DCBAF16001862EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Wasif Qayyum";
 				TargetAttributes = {
 					455891451DCBAF16001862EF = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = R2HK8875FX;
 					};
 					4558915E1DCBAF16001862EF = {
 						CreatedOnToolsVersion = 7.3;
@@ -218,7 +255,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 455891411DCBAF16001862EF /* Build configuration list for PBXProject "Template" */;
+			buildConfigurationList = 455891411DCBAF16001862EF /* Build configuration list for PBXProject "Huntable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,9 +268,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				455891451DCBAF16001862EF /* Template */,
-				4558915E1DCBAF16001862EF /* TemplateTests */,
-				455891691DCBAF16001862EF /* TemplateUITests */,
+				455891451DCBAF16001862EF /* Huntable */,
+				4558915E1DCBAF16001862EF /* HuntableTests */,
+				455891691DCBAF16001862EF /* HuntableUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -245,7 +282,9 @@
 			files = (
 				455891591DCBAF16001862EF /* LaunchScreen.storyboard in Resources */,
 				455891561DCBAF16001862EF /* Assets.xcassets in Resources */,
+				295F75C71DECAAEC0095F8ED /* 640x1136.jpg in Resources */,
 				455891541DCBAF16001862EF /* Main.storyboard in Resources */,
+				455891891DCBAFA7001862EF /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4558918B1DCBAFA7001862EF /* SVRadialGradientLayer.m in Sources */,
 				455891511DCBAF16001862EF /* ViewController.m in Sources */,
+				455891881DCBAFA7001862EF /* SVProgressAnimatedView.m in Sources */,
 				4558914E1DCBAF16001862EF /* AppDelegate.m in Sources */,
 				4558914B1DCBAF16001862EF /* main.m in Sources */,
+				455891871DCBAFA7001862EF /* SVIndefiniteAnimatedView.m in Sources */,
+				4558918A1DCBAFA7001862EF /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,12 +340,12 @@
 /* Begin PBXTargetDependency section */
 		455891611DCBAF16001862EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 455891451DCBAF16001862EF /* Template */;
+			target = 455891451DCBAF16001862EF /* Huntable */;
 			targetProxy = 455891601DCBAF16001862EF /* PBXContainerItemProxy */;
 		};
 		4558916C1DCBAF16001862EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 455891451DCBAF16001862EF /* Template */;
+			target = 455891451DCBAF16001862EF /* Huntable */;
 			targetProxy = 4558916B1DCBAF16001862EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -341,8 +384,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,8 +431,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -415,9 +462,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2HK8875FX;
 				INFOPLIST_FILE = Template/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Codecture.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Codecture.-Huntable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +475,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2HK8875FX;
 				INFOPLIST_FILE = Template/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Codecture.Template;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Codecture.-Huntable";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -441,7 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Codecture.TemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huntable.app/Huntable";
 			};
 			name = Debug;
 		};
@@ -453,7 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Codecture.TemplateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Template.app/Template";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huntable.app/Huntable";
 			};
 			name = Release;
 		};
@@ -482,7 +533,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		455891411DCBAF16001862EF /* Build configuration list for PBXProject "Template" */ = {
+		455891411DCBAF16001862EF /* Build configuration list for PBXProject "Huntable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				455891711DCBAF16001862EF /* Debug */,
@@ -491,29 +542,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		455891731DCBAF16001862EF /* Build configuration list for PBXNativeTarget "Template" */ = {
+		455891731DCBAF16001862EF /* Build configuration list for PBXNativeTarget "Huntable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				455891741DCBAF16001862EF /* Debug */,
 				455891751DCBAF16001862EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		455891761DCBAF16001862EF /* Build configuration list for PBXNativeTarget "TemplateTests" */ = {
+		455891761DCBAF16001862EF /* Build configuration list for PBXNativeTarget "HuntableTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				455891771DCBAF16001862EF /* Debug */,
 				455891781DCBAF16001862EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		455891791DCBAF16001862EF /* Build configuration list for PBXNativeTarget "TemplateUITests" */ = {
+		455891791DCBAF16001862EF /* Build configuration list for PBXNativeTarget "HuntableUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4558917A1DCBAF16001862EF /* Debug */,
 				4558917B1DCBAF16001862EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
